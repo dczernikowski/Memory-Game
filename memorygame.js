@@ -15,8 +15,8 @@ let spade1 = "https://openclipart.org/image/2400px/svg_to_png/166674/outlinedspa
 let spade2 = "https://openclipart.org/image/2400px/svg_to_png/166674/outlinedspade.png";
 let smiley1 = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
 let smiley2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
-let heart1 = "https://cdn.pixabay.com/photo/2012/05/07/18/37/heart-48942_960_720.png";
-let heart2 = "https://cdn.pixabay.com/photo/2012/05/07/18/37/heart-48942_960_720.png";
+let heart1 = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png";
+let heart2 = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png";
 var pic = [club1, club2, diamond1, diamond2, spade1, spade2, triangle1, triangle2, heart1, heart2, smiley1, smiley2];
 
 function restart() {
