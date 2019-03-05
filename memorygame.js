@@ -19,62 +19,62 @@ function restart() {
 
 function clubOne() {
   numClick++
-  document.getElementById("club1").innerHTML = pic[0];
+  document.getElementById("club1").src = pic[0];
 }
 
 function clubTwo() {
   numClick++
-  document.getElementById("club2").innerHTML = pic[0];
+  document.getElementById("club2").src = pic[1];
 }
 
 function triangleOne() {
   numClick++
-  document.getElementById("triangle1").innerHTML = pic[6];
+  document.getElementById("triangle1").src = pic[6];
 }
 
 function triangleTwo() {
   numClick++
-  document.getElementById("triangle2").innerHTML = pic[7];
+  document.getElementById("triangle2").src = pic[7];
 }
 
 function diamondOne() {
   numClick++
-  document.getElementById("diamond1").innerHTML = pic[2];
+  document.getElementById("diamond1").src = pic[2];
 }
 
 function diamondTwo() {
   numClick++
-  document.getElementById("diamond2").innerHTML = pic[3];
+  document.getElementById("diamond2").src = pic[3];
 }
 
 function smileyOne() {
   numClick++
-  document.getElementById("smiley1").innerHTML = pic[10];
+  document.getElementById("smiley1").src = pic[10];
 }
 
 function smileyTwo() {
   numClick++
-  document.getElementById("smiley2").innerHTML = pic[11];
+  document.getElementById("smiley2").src = pic[11];
 }
 
 function spadeOne() {
   numClick++
-  document.getElementById("spade1").innerHTML = pic[4];
+  document.getElementById("spade1").src = pic[4];
 }
 
 function spadeTwo() {
   numClick++
-  document.getElementById("spade1").innerHTML = pic[5];
+  document.getElementById("spade2").src = pic[5];
 }
 
 function heartOne() {
   numClick++
-  document.getElementById("heart1").innerHTML = pic[8];
+  document.getElementById("heart1").src = pic[8];
 }
 
 function heartTwo() {
   numClick++
-  document.getElementById("heart2").innerHTML = pic[9];
+  document.getElementById("heart2").src = pic[9];
 }
 
 function twoCardsFlipped() {
