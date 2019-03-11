@@ -4,26 +4,31 @@
    <link rel="stylesheet" type="text/css" href="memorygame.css"/>
   <script type="text/javascript" src="memorygame.js"></script>
 </head>
-<h1>Hi</h1>
+<h1>Memory Game</h1>
+
 <body>
+  <p>This memory game is set up as any other memory game: click two cards, see if they are the same, and if not turn the cards back over, if so keep the cards flipped up. <br/>
+    You WIN once all the cards are flipped up with a check mark. <br/>
+    Refresh the page to restart the game.
+  </p>
   <table>
     <tr>
-      <td><img class="card" id="club1" onclick="clubOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="diamond1" onclick="diamondOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="spade1" onclick="spadeOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="smiley1" onclick="smileyOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="club1" onclick="clubOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="diamond1" onclick="diamondOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="spade1" onclick="spadeOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="smiley1" onclick="smileyOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
     </tr>
     <tr>
-      <td><img class="card" id="triangle1" onclick="triangleOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="club2" onclick="clubTwo()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="triangle2" onclick="triangleTwo()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="heart1" onclick="heartOne()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="triangle1" onclick="triangleOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="club2" onclick="clubTwo(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="triangle2" onclick="triangleTwo(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="heart1" onclick="heartOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
     </tr>
     <tr>
-      <td><img class="card" id="diamond2" onclick="diamondTwo()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="heart2" onclick="heartTwo()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="spade2" onclick="spadeTwo()" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
-      <td><img class="card" id="smiley2"  onclick="smileyTwo()"src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="diamond2" onclick="diamondTwo(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="heart2" onclick="heartTwo(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="spade2" onclick="spadeTwo(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
+      <td><img class="card" id="smiley2"  onclick="smileyTwo(); setTimeout(twoCardsFlipped, 1500);"src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
     </tr>
   </table>
 </body>

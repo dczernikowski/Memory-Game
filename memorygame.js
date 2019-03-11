@@ -27,88 +27,76 @@ function clubOne() {
   numClick++
   clubs++
   document.getElementById("club1").src = pic[0];
-  twoCardsFlipped()
 }
 
 function clubTwo() {
   numClick++
   clubs++
   document.getElementById("club2").src = pic[1];
-  twoCardsFlipped()
 }
 
 function triangleOne() {
   numClick++
   triangles++
   document.getElementById("triangle1").src = pic[6];
-  twoCardsFlipped()
 }
 
 function triangleTwo() {
   numClick++
   triangles++
   document.getElementById("triangle2").src = pic[7];
-  twoCardsFlipped()
 }
 
 function diamondOne() {
   numClick++
   diamonds++
   document.getElementById("diamond1").src = pic[2];
-  twoCardsFlipped()
 }
 
 function diamondTwo() {
   numClick++
   diamonds++
   document.getElementById("diamond2").src = pic[3];
-  twoCardsFlipped()
 }
 
 function smileyOne() {
   numClick++
   smileys++
   document.getElementById("smiley1").src = pic[10];
-  twoCardsFlipped()
 }
 
 function smileyTwo() {
   numClick++
   smileys++
   document.getElementById("smiley2").src = pic[11];
-  twoCardsFlipped()
 }
 
 function spadeOne() {
   numClick++
   spades++
   document.getElementById("spade1").src = pic[4];
-  twoCardsFlipped()
 }
 
 function spadeTwo() {
   numClick++
   spades++
   document.getElementById("spade2").src = pic[5];
-  twoCardsFlipped()
 }
 
 function heartOne() {
   numClick++
   hearts++
   document.getElementById("heart1").src = pic[8];
-  twoCardsFlipped()
 }
 
 function heartTwo() {
   numClick++
   hearts++
   document.getElementById("heart2").src = pic[9];
-  twoCardsFlipped()
 }
 
 function twoCardsFlipped() {
-  if (numClick == 2) {
+  if (numClick >= 2) {
     numClick = 0;
     if (clubs == 2) {
       document.getElementById('club1').src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png";
