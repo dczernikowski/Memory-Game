@@ -12,9 +12,12 @@ let spade = "https://openclipart.org/image/2400px/svg_to_png/166674/outlinedspad
 let smiley = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
 let heart = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png";
 var pic = [club, diamond, spade, triangle, heart, smiley];
+var cards = [document.getElementById("club1"), document.getElementById("club2")];
+var shuffleButton = document.getElementById("shuffle")
 
-function restart() {
-
+function shuffle() {
+  pic.sort(function(a, b){return 0.5 - Math.random()});
+  console.log(cards);
 }
 
 function clubOne() {
@@ -142,6 +145,3 @@ function twoCardsFlipped() {
     }
   }
   }
-function shuffle() {
-  pic.sort(function(a, b){return 0.5 - Math.random()});
-}
