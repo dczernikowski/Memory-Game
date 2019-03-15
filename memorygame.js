@@ -12,12 +12,42 @@ let spade = "https://openclipart.org/image/2400px/svg_to_png/166674/outlinedspad
 let smiley = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
 let heart = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png";
 var pic = [club, diamond, spade, triangle, heart, smiley];
-var cards = [document.getElementById("club1"), document.getElementById("club2")];
+var cards = ["club1", "club2", "triangle1", "triangle2", "diamond1", "diamond2", "spade1", "spade2", "smiley1", "smiley2", "heart1", "heart2"];
 var shuffleButton = document.getElementById("shuffle")
 
 function shuffle() {
   pic.sort(function(a, b){return 0.5 - Math.random()});
-  console.log(cards);
+  cards.sort(function(a, b){return 0.5 - Math.random()});
+  triangles = 0;
+  clubs = 0;
+  smileys = 0;
+  hearts = 0;
+  spades = 0;
+  diamonds = 0;
+    document.getElementById('club1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('club2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('diamond1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('diamond2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('triangle1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('triangle2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('smiley1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('smiley2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('spade1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('spade2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('heart1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById("club1").id = cards[0];
+    document.getElementById("club2").id = cards[1];
+    document.getElementById("triangle1").id = cards[2];
+    document.getElementById("triangle2").id = cards[3];
+    document.getElementById("diamond1").id = cards[4];
+    document.getElementById("diamond2").id = cards[5];
+    document.getElementById("spade1").id = cards[6];
+    document.getElementById("spade2").id = cards[7];
+    document.getElementById("smiley1").id = cards[8];
+    document.getElementById("smiley2").id = cards[9];
+    document.getElementById("heart1").id = cards[10];
+    document.getElementById("heart2").id = cards[11];
 }
 
 function clubOne() {
