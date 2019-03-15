@@ -16,7 +16,7 @@ var cards = ["club1", "club2", "triangle1", "triangle2", "diamond1", "diamond2",
 var shuffleButton = document.getElementById("shuffle")
 
 function shuffle() {
-  pic.sort(function(a, b){return 0.5 - Math.random()});
+  //pic.sort(function(a, b){return 0.5 - Math.random()});
   cards.sort(function(a, b){return 0.5 - Math.random()});
   triangles = 0;
   clubs = 0;
