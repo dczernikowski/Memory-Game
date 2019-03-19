@@ -12,7 +12,7 @@ let spade = "https://openclipart.org/image/2400px/svg_to_png/166674/outlinedspad
 let smiley = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png";
 let heart = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png";
 var pic = [club, diamond, spade, triangle, heart, smiley];
-var cards = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
+var cards = [];
 var shuffleButton = document.getElementById("shuffle")
 
 function shuffle() {
@@ -36,18 +36,18 @@ function shuffle() {
     document.getElementById('spade2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById('heart1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
-    document.getElementById("0").id = cards[0];
-    document.getElementById("1").id = cards[1];
-    document.getElementById("2").id = cards[2];
-    document.getElementById("3").id = cards[3];
-    document.getElementById("4").id = cards[4];
-    document.getElementById("5").id = cards[5];
-    document.getElementById("6").id = cards[6];
-    document.getElementById("7").id = cards[7];
-    document.getElementById("8").id = cards[8];
-    document.getElementById("9").id = cards[9];
-    document.getElementById("10").id = cards[10];
-    document.getElementById("11").id = cards[11];
+    document.getElementById("0") = cards[0];
+    document.getElementById("1") = cards[1];
+    document.getElementById("2") = cards[2];
+    document.getElementById("3") = cards[3];
+    document.getElementById("4") = cards[4];
+    document.getElementById("5") = cards[5];
+    document.getElementById("6") = cards[6];
+    document.getElementById("7") = cards[7];
+    document.getElementById("8") = cards[8];
+    document.getElementById("9") = cards[9];
+    document.getElementById("10") = cards[10];
+    document.getElementById("11") = cards[11];
 }
 
 function clubOne() {
