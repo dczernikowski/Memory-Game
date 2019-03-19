@@ -16,7 +16,7 @@ var cards = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 var shuffleButton = document.getElementById("shuffle")
 
 function shuffle() {
-  //pic.sort(function(a, b){return 0.5 - Math.random()});
+  pic.sort(function(a, b){return 0.5 - Math.random()});
   cards.sort(function(a, b){return 0.5 - Math.random()});
   triangles = 0;
   clubs = 0;
@@ -38,88 +38,88 @@ function shuffle() {
     document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById("0").id = cards[0];
     document.getElementById("1").id = cards[1];
-    document.getElementById("triangle1").id = cards[2];
-    document.getElementById("triangle2").id = cards[3];
-    document.getElementById("diamond1").id = cards[4];
-    document.getElementById("diamond2").id = cards[5];
-    document.getElementById("spade1").id = cards[6];
-    document.getElementById("spade2").id = cards[7];
-    document.getElementById("smiley1").id = cards[8];
-    document.getElementById("smiley2").id = cards[9];
-    document.getElementById("heart1").id = cards[10];
-    document.getElementById("heart2").id = cards[11];
+    document.getElementById("2").id = cards[2];
+    document.getElementById("3").id = cards[3];
+    document.getElementById("4").id = cards[4];
+    document.getElementById("5").id = cards[5];
+    document.getElementById("6").id = cards[6];
+    document.getElementById("7").id = cards[7];
+    document.getElementById("8").id = cards[8];
+    document.getElementById("9").id = cards[9];
+    document.getElementById("10").id = cards[10];
+    document.getElementById("11").id = cards[11];
 }
 
 function clubOne() {
   numClick++
   clubs++
-  document.getElementById(cards[0]).src = pic[0];
+  document.getElementById("club1").src = pic[0];
 }
 
 function clubTwo() {
   numClick++
   clubs++
-  document.getElementById(cards[1]).src = pic[0];
+  document.getElementById("club2").src = pic[0];
 }
 
 function triangleOne() {
   numClick++
   triangles++
-  document.getElementById(cards[2]).src = pic[3];
+  document.getElementById("triangle1").src = pic[3];
 }
 
 function triangleTwo() {
   numClick++
   triangles++
-  document.getElementById(cards[3]).src = pic[3];
+  document.getElementById("triangle2").src = pic[3];
 }
 
 function diamondOne() {
   numClick++
   diamonds++
-  document.getElementById(cards[4]).src = pic[1];
+  document.getElementById("diamond1").src = pic[1];
 }
 
 function diamondTwo() {
   numClick++
   diamonds++
-  document.getElementById(cards[5]).src = pic[1];
+  document.getElementById("diamond2").src = pic[1];
 }
 
 function smileyOne() {
   numClick++
   smileys++
-  document.getElementById(cards[8]).src = pic[5];
+  document.getElementById("smiley1").src = pic[5];
 }
 
 function smileyTwo() {
   numClick++
   smileys++
-  document.getElementById(cards[9]).src = pic[5];
+  document.getElementById("smiley2").src = pic[5];
 }
 
 function spadeOne() {
   numClick++
   spades++
-  document.getElementById(cards[6]).src = pic[2];
+  document.getElementById("spade1").src = pic[2];
 }
 
 function spadeTwo() {
   numClick++
   spades++
-  document.getElementById(cards[7]).src = pic[2];
+  document.getElementById("spade2").src = pic[2];
 }
 
 function heartOne() {
   numClick++
   hearts++
-  document.getElementById(cards[10]).src = pic[4];
+  document.getElementById("heart1").src = pic[4];
 }
 
 function heartTwo() {
   numClick++
   hearts++
-  document.getElementById(cards[11]).src = pic[4];
+  document.getElementById("heart2").src = pic[4];
 }
 
 function twoCardsFlipped() {
