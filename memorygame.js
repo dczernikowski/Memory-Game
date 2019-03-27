@@ -29,11 +29,13 @@ var cards = [
   [four, five, six, seven],
   [eight, nine, ten, eleven],
 ];
+var ids = ["club1", "club2", "triangle1", "triangle2", "diamond1", "diamond2", "spade1", "spade2", "heart1", "heart2", "smiley1", "smiley2"]
 var shuffleButton = document.getElementById("shuffle")
 function shuffle() {
   cards[0].sort(function(a, b){return 0.5 - Math.random()});
   cards[1].sort(function(a, b){return 0.5 - Math.random()});
   cards[2].sort(function(a, b){return 0.5 - Math.random()});
+  ids.sort(function(a, b){return 0.5 - Math.random()});
   triangles = 0;
   clubs = 0;
   smileys = 0;
@@ -52,6 +54,19 @@ function shuffle() {
     document.getElementById('spade2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById('heart1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+
+    document.getElementById('club1').id=ids[0];
+    document.getElementById('club2').id=ids[1];
+    document.getElementById('diamond1').id=ids[2];
+    document.getElementById('diamond2').id=ids[3];
+    document.getElementById('triangle1').id=ids[4];
+    document.getElementById('triangle2').id=ids[5];
+    document.getElementById('smiley1').id=ids[6];
+    document.getElementById('smiley2').id=ids[7];
+    document.getElementById('spade1').id=ids[8];
+    document.getElementById('spade2').id=ids[9];
+    document.getElementById('heart1').id=ids[10];
+    document.getElementById('heart2').id=ids[11];
 }
 
 function cellOne() {
@@ -62,68 +77,68 @@ function cellOne() {
 
 function cellTwo() {
   numClick++
-  clubs++
-  document.getElementById("club2").src = cards[1][1];
-}
-
-function cellThree() {
-  numClick++
-  triangles++
-  document.getElementById("triangle1").src = cards[1][0];
-}
-
-function cellFour() {
-  numClick++
-  triangles++
-  document.getElementById("triangle2").src = cards[1][2];
-}
-
-function cellFive() {
-  numClick++
   diamonds++
   document.getElementById("diamond1").src = cards[0][1];
 }
 
-function cellSix() {
-  numClick++
-  diamonds++
-  document.getElementById("diamond2").src = cards[2][0];
-}
-
-function cellSeven() {
-  numClick++
-  smileys++
-  document.getElementById("smiley1").src = cards[0][3];
-}
-
-function cellEight() {
-  numClick++
-  smileys++
-  document.getElementById("smiley2").src = cards[2][3];
-}
-
-function cellNine() {
+function cellThree() {
   numClick++
   spades++
   document.getElementById("spade1").src = cards[0][2];
 }
 
-function cellTen() {
+function cellFour() {
   numClick++
-  spades++
-  document.getElementById("spade2").src = cards[2][2];
+  smileys++
+  document.getElementById("smiley1").src = cards[0][3];
 }
 
-function cellEleven() {
+function cellFive() {
+  numClick++
+  triangles++
+  document.getElementById("triangle1").src = cards[1][0];
+}
+
+function cellSix() {
+  numClick++
+  clubs++
+  document.getElementById("club2").src = cards[1][1];
+}
+
+function cellSeven() {
+  numClick++
+  triangles++
+  document.getElementById("triangle2").src = cards[1][2];
+}
+
+function cellEight() {
   numClick++
   hearts++
   document.getElementById("heart1").src = cards[1][3];
 }
 
-function cellTwelve() {
+function cellNine() {
+  numClick++
+  diamonds++
+  document.getElementById("diamond2").src = cards[2][0];
+}
+
+function cellTen() {
   numClick++
   hearts++
   document.getElementById("heart2").src = cards[2][1];
+}
+
+function cellEleven() {
+  numClick++
+  spades++
+  document.getElementById("spade2").src = cards[2][2];
+}
+
+function cellTwelve() {
+  numClick++
+  smileys++
+  document.getElementById("smiley2").src = cards[2][3];
 }
 
 function twoCardsFlipped() {
