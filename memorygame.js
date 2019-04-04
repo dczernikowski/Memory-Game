@@ -83,7 +83,6 @@ function shuffle() {
   document.getElementById('heart1').style.display = "block"
   document.getElementById('heart2').style.display = "block"
   document.getElementById("shuffle").style.display = "none"
-  document.getElementById("playAgain").style.display = "none"
 }
 
 function playAgain() {
@@ -397,3 +396,21 @@ function twoCardsFlipped() {
     }
   }
   }
+
+function win() {
+  if (document.getElementById('club1').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('club2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('triangle1').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('triangle2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('diamond1').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('diamond2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('spade1').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('spade2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('heart2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('heart2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('smiley1').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" &&
+      document.getElementById('smiley2').src === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/2000px-Yes_Check_Circle.svg.png" ) {
+      alert("You Win!");
+      document.getElementById("playAgain").style.display = "block"
+      }
+}
