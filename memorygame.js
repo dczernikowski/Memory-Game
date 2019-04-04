@@ -69,6 +69,60 @@ function shuffle() {
   //  document.getElementById('spade2').id=ids[9];
   //  document.getElementById('heart1').id=ids[10];
   //  document.getElementById('heart2').id=ids[11];
+
+  document.getElementById('club1').style.display = "block"
+  document.getElementById('club2').style.display = "block"
+  document.getElementById('diamond1').style.display = "block"
+  document.getElementById('diamond2').style.display = "block"
+  document.getElementById('triangle1').style.display = "block"
+  document.getElementById('triangle2').style.display = "block"
+  document.getElementById('smiley1').style.display = "block"
+  document.getElementById('smiley2').style.display = "block"
+  document.getElementById('spade1').style.display = "block"
+  document.getElementById('spade2').style.display = "block"
+  document.getElementById('heart1').style.display = "block"
+  document.getElementById('heart2').style.display = "block"
+  document.getElementById("shuffle").style.display = "none"
+  document.getElementById("playAgain").style.display = "none"
+}
+
+function playAgain() {
+  cards[0].sort(function(a, b){return 0.5 - Math.random()});
+  cards[1].sort(function(a, b){return 0.5 - Math.random()});
+  cards[2].sort(function(a, b){return 0.5 - Math.random()});
+  //ids.sort(function(a, b){return 0.5 - Math.random()});
+  triangles = 0;
+  clubs = 0;
+  smileys = 0;
+  hearts = 0;
+  spades = 0;
+  diamonds = 0;
+    document.getElementById('club1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('club2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('diamond1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('diamond2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('triangle1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('triangle2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('smiley1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('smiley2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('spade1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('spade2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('heart1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+    document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
+
+  //  document.getElementById('club1').id=ids[0];
+  //  document.getElementById('club2').id=ids[1];
+  //  document.getElementById('diamond1').id=ids[2];
+  //  document.getElementById('diamond2').id=ids[3];
+  //  document.getElementById('triangle1').id=ids[4];
+  //  document.getElementById('triangle2').id=ids[5];
+  //  document.getElementById('smiley1').id=ids[6];
+  //  document.getElementById('smiley2').id=ids[7];
+  //  document.getElementById('spade1').id=ids[8];
+  //  document.getElementById('spade2').id=ids[9];
+  //  document.getElementById('heart1').id=ids[10];
+  //  document.getElementById('heart2').id=ids[11];
+  document.getElementById("playAgain").style.display = "none"
 }
 
 function cellOne() {

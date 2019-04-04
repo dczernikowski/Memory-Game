@@ -5,12 +5,13 @@
   <script type="text/javascript" src="memorygame.js"></script>
 </head>
 <h1>Memory Game</h1>
-<button id="shuffle" onclick="shuffle()">Play Again!</button>
 <body>
-  <p>This memory game is set up as any other memory game: click two cards, see if they are the same, and if not turn the cards back over, if so keep the cards flipped up. <br/>
-    You WIN once all the cards are flipped up with a check mark. <br/>
+  <p>This memory game is set up like any other memory game: Match the cards with their pair. <br/>
+    Once all the cards are matched with their pair, You Win! <br/>
     Press the button to play again!
   </p>
+  <button id="shuffle" onclick="shuffle()">Play!</button>
+  <button id="playAgain" onclick="shuffle()">Play Again!</button>
   <table>
     <tr>
       <td id="0"><img class="card" id="club1" onclick="cellOne(); setTimeout(twoCardsFlipped, 1500);" src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695"/></td>
