@@ -89,7 +89,6 @@ function playAgain() {
   cards[0].sort(function(a, b){return 0.5 - Math.random()});
   cards[1].sort(function(a, b){return 0.5 - Math.random()});
   cards[2].sort(function(a, b){return 0.5 - Math.random()});
-  //ids.sort(function(a, b){return 0.5 - Math.random()});
   triangles = 0;
   clubs = 0;
   smileys = 0;
