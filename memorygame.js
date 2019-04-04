@@ -57,6 +57,7 @@ function shuffle() {
     document.getElementById('heart1').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
     document.getElementById('heart2').src="https://cdn.shopify.com/s/files/1/0200/7616/products/playing-cards-bicycle-rider-back-1_grande.png?v=1535755695";
 
+<<<<<<< HEAD
   //  document.getElementById('club1').id=ids[0];
   //  document.getElementById('club2').id=ids[1];
   //  document.getElementById('diamond1').id=ids[2];
@@ -69,10 +70,25 @@ function shuffle() {
   //  document.getElementById('spade2').id=ids[9];
   //  document.getElementById('heart1').id=ids[10];
   //  document.getElementById('heart2').id=ids[11];
+=======
+//    document.getElementById('club1').id=ids[0];
+//    document.getElementById('club2').id=ids[1];
+//    document.getElementById('diamond1').id=ids[2];
+//    document.getElementById('diamond2').id=ids[3];
+//    document.getElementById('triangle1').id=ids[4];
+//    document.getElementById('triangle2').id=ids[5];
+//    document.getElementById('smiley1').id=ids[6];
+//    document.getElementById('smiley2').id=ids[7];
+//    document.getElementById('spade1').id=ids[8];
+//    document.getElementById('spade2').id=ids[9];
+//    document.getElementById('heart1').id=ids[10];
+//    document.getElementById('heart2').id=ids[11];
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
 }
 
 function cellOne() {
   numClick++
+<<<<<<< HEAD
   //if statements that say if the given cell is a club or triangle or etc. it corresponds with the addition of the variable.
   if (cards[0][0] === zero || cards[0][0] === five) {
     clubs++
@@ -87,11 +103,29 @@ function cellOne() {
   } else if (cards[0][0] === three || cards[0][0] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[0][0] === zero || cards[0][0] === five) {
+    clubs++  
+  } else if (cards[0][0] === four || cards[0][0] === six) {
+    triangles++ 
+  } else if (cards[0][0] === one || cards[0][0] === eight) {
+    diamonds++
+  } else if (cards[0][0] === two || cards[0][0] === ten) {
+    spades++
+  } else if (cards[0][0] === seven || cards[0][0] === nine) {
+    hearts++
+  } else if (cards[0][0] === three || cards[0][0] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("club1").src = cards[0][0];
 }
 
 function cellTwo() {
   numClick++
+<<<<<<< HEAD
   if (cards[0][1] === zero || cards[0][1] === five) {
     clubs++
   } else if (cards[0][1] === four || cards[0][1] === six) {
@@ -105,11 +139,29 @@ function cellTwo() {
   } else if (cards[0][1] === three || cards[0][1] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[0][1] === zero || cards[0][1] === five) {
+    clubs++  
+  } else if (cards[0][1] === four || cards[0][1] === six) {
+    triangles++ 
+  } else if (cards[0][1] === one || cards[0][1] === eight) {
+    diamonds++
+  } else if (cards[0][1] === two || cards[0][1] === ten) {
+    spades++
+  } else if (cards[0][1] === seven || cards[0][1] === nine) {
+    hearts++
+  } else if (cards[0][1] === three || cards[0][1] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("diamond1").src = cards[0][1];
 }
 
 function cellThree() {
   numClick++
+<<<<<<< HEAD
   if (cards[0][2] === zero || cards[0][2] === five) {
     clubs++
   } else if (cards[0][2] === four || cards[0][2] === six) {
@@ -123,11 +175,29 @@ function cellThree() {
   } else if (cards[0][2] === three || cards[0][2] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[0][2] === zero || cards[0][2] === five) {
+    clubs++  
+  } else if (cards[0][2] === four || cards[0][2] === six) {
+    triangles++ 
+  } else if (cards[0][2] === one || cards[0][2] === eight) {
+    diamonds++
+  } else if (cards[0][2] === two || cards[0][2] === ten) {
+    spades++
+  } else if (cards[0][2] === seven || cards[0][2] === nine) {
+    hearts++
+  } else if (cards[0][2] === three || cards[0][2] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("spade1").src = cards[0][2];
 }
 
 function cellFour() {
   numClick++
+<<<<<<< HEAD
   if (cards[0][3] === zero || cards[0][3] === five) {
     clubs++
   } else if (cards[0][3] === four || cards[0][3] === six) {
@@ -141,11 +211,29 @@ function cellFour() {
   } else if (cards[0][3] === three || cards[0][3] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[0][3] === zero || cards[0][3] === five) {
+    clubs++  
+  } else if (cards[0][3] === four || cards[0][3] === six) {
+    triangles++ 
+  } else if (cards[0][3] === one || cards[0][3] === eight) {
+    diamonds++
+  } else if (cards[0][3] === two || cards[0][3] === ten) {
+    spades++
+  } else if (cards[0][3] === seven || cards[0][3] === nine) {
+    hearts++
+  } else if (cards[0][3] === three || cards[0][3] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("smiley1").src = cards[0][3];
 }
 
 function cellFive() {
   numClick++
+<<<<<<< HEAD
   if (cards[1][0] === zero || cards[1][0] === five) {
     clubs++
   } else if (cards[1][0] === four || cards[1][0] === six) {
@@ -159,11 +247,29 @@ function cellFive() {
   } else if (cards[1][0] === three || cards[1][0] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[1][0] === zero || cards[1][0] === five) {
+    clubs++  
+  } else if (cards[1][0] === four || cards[1][0] === six) {
+    triangles++ 
+  } else if (cards[1][0] === one || cards[1][0] === eight) {
+    diamonds++
+  } else if (cards[1][0] === two || cards[1][0] === ten) {
+    spades++
+  } else if (cards[1][0] === seven || cards[1][0] === nine) {
+    hearts++
+  } else if (cards[1][0] === three || cards[1][0] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("triangle1").src = cards[1][0];
 }
 
 function cellSix() {
   numClick++
+<<<<<<< HEAD
   if (cards[1][1] === zero || cards[1][1] === five) {
     clubs++
   } else if (cards[1][1] === four || cards[1][1] === six) {
@@ -177,11 +283,29 @@ function cellSix() {
   } else if (cards[1][1] === three || cards[1][1] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[1][1] === zero || cards[1][1] === five) {
+    clubs++  
+  } else if (cards[1][1] === four || cards[1][1] === six) {
+    triangles++ 
+  } else if (cards[1][1] === one || cards[1][1] === eight) {
+    diamonds++
+  } else if (cards[1][1] === two || cards[1][1] === ten) {
+    spades++
+  } else if (cards[1][1] === seven || cards[1][1] === nine) {
+    hearts++
+  } else if (cards[1][1] === three || cards[1][1] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("club2").src = cards[1][1];
 }
 
 function cellSeven() {
   numClick++
+<<<<<<< HEAD
   if (cards[1][2] === zero || cards[1][2] === five) {
     clubs++
   } else if (cards[1][2] === four || cards[1][2] === six) {
@@ -195,11 +319,29 @@ function cellSeven() {
   } else if (cards[1][2] === three || cards[1][2] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[1][2] === zero || cards[1][2] === five) {
+    clubs++  
+  } else if (cards[1][2] === four || cards[1][2] === six) {
+    triangles++ 
+  } else if (cards[1][2] === one || cards[1][2] === eight) {
+    diamonds++
+  } else if (cards[1][2] === two || cards[1][2] === ten) {
+    spades++
+  } else if (cards[1][2] === seven || cards[1][2] === nine) {
+    hearts++
+  } else if (cards[1][2] === three || cards[1][2] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("triangle2").src = cards[1][2];
 }
 
 function cellEight() {
   numClick++
+<<<<<<< HEAD
   if (cards[1][3] === zero || cards[1][3] === five) {
     clubs++
   } else if (cards[1][3] === four || cards[1][3] === six) {
@@ -213,11 +355,29 @@ function cellEight() {
   } else if (cards[1][3] === three || cards[1][3] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[1][3] === zero || cards[1][3] === five) {
+    clubs++  
+  } else if (cards[1][3] === four || cards[1][3] === six) {
+    triangles++ 
+  } else if (cards[1][3] === one || cards[1][3] === eight) {
+    diamonds++
+  } else if (cards[1][3] === two || cards[1][3] === ten) {
+    spades++
+  } else if (cards[1][3] === seven || cards[1][3] === nine) {
+    hearts++
+  } else if (cards[1][3] === three || cards[1][3] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("heart1").src = cards[1][3];
 }
 
 function cellNine() {
   numClick++
+<<<<<<< HEAD
   if (cards[2][0] === zero || cards[2][0] === five) {
     clubs++
   } else if (cards[2][0] === four || cards[2][0] === six) {
@@ -231,11 +391,29 @@ function cellNine() {
   } else if (cards[2][0] === three || cards[2][0] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[2][0] === zero || cards[2][0] === five) {
+    clubs++  
+  } else if (cards[2][0] === four || cards[2][0] === six) {
+    triangles++ 
+  } else if (cards[2][0] === one || cards[2][0] === eight) {
+    diamonds++
+  } else if (cards[2][0] === two || cards[2][0] === ten) {
+    spades++
+  } else if (cards[2][0] === seven || cards[2][0] === nine) {
+    hearts++
+  } else if (cards[2][0] === three || cards[2][0] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("diamond2").src = cards[2][0];
 }
 
 function cellTen() {
   numClick++
+<<<<<<< HEAD
   if (cards[2][1] === zero || cards[2][1] === five) {
     clubs++
   } else if (cards[2][1] === four || cards[2][1] === six) {
@@ -249,11 +427,29 @@ function cellTen() {
   } else if (cards[2][1] === three || cards[2][1] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[2][1] === zero || cards[2][1] === five) {
+    clubs++  
+  } else if (cards[2][1] === four || cards[2][1] === six) {
+    triangles++ 
+  } else if (cards[2][1] === one || cards[2][1] === eight) {
+    diamonds++
+  } else if (cards[2][1] === two || cards[2][1] === ten) {
+    spades++
+  } else if (cards[2][1] === seven || cards[2][1] === nine) {
+    hearts++
+  } else if (cards[2][1] === three || cards[2][1] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("heart2").src = cards[2][1];
 }
 
 function cellEleven() {
   numClick++
+<<<<<<< HEAD
   if (cards[2][2] === zero || cards[2][2] === five) {
     clubs++
   } else if (cards[2][2] === four || cards[2][2] === six) {
@@ -267,11 +463,29 @@ function cellEleven() {
   } else if (cards[2][2] === three || cards[2][2] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[2][2] === zero || cards[2][2] === five) {
+    clubs++  
+  } else if (cards[2][2] === four || cards[2][2] === six) {
+    triangles++ 
+  } else if (cards[2][2] === one || cards[2][2] === eight) {
+    diamonds++
+  } else if (cards[2][2] === two || cards[2][2] === ten) {
+    spades++
+  } else if (cards[2][2] === seven || cards[2][2] === nine) {
+    hearts++
+  } else if (cards[2][2] === three || cards[2][2] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("spade2").src = cards[2][2];
 }
 
 function cellTwelve() {
   numClick++
+<<<<<<< HEAD
   if (cards[2][3] === zero || cards[2][3] === five) {
     clubs++
   } else if (cards[2][3] === four || cards[2][3] === six) {
@@ -285,6 +499,23 @@ function cellTwelve() {
   } else if (cards[2][3] === three || cards[2][3] === eleven) {
     smileys++
   }
+=======
+
+  if (cards[2][3] === zero || cards[2][3] === five) {
+    clubs++  
+  } else if (cards[2][3] === four || cards[2][3] === six) {
+    triangles++ 
+  } else if (cards[2][3] === one || cards[2][3] === eight) {
+    diamonds++
+  } else if (cards[2][3] === two || cards[2][3] === ten) {
+    spades++
+  } else if (cards[2][3] === seven || cards[2][3] === nine) {
+    hearts++
+  } else if (cards[2][3] === three || cards[2][3] === eleven) {
+    smileys++ 
+  }
+  
+>>>>>>> 5ddd1b65b9fa6e0235dee5f8aa8012b06e580427
   document.getElementById("smiley2").src = cards[2][3];
 }
 
