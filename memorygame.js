@@ -413,3 +413,7 @@ function win() {
       document.getElementById("playAgain").style.display = "block"
       }
 }
+
+//if (cards[0][0] === zero || five) {
+//document.getElementById('club1') = "club1"
+//}
