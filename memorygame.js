@@ -414,6 +414,318 @@ function win() {
       }
 }
 
-//if (cards[0][0] === zero || five) {
-//document.getElementById('club1') = "club1"
-//}
+//change the id of the cell so it corresponds with the picture.
+function idChanger() {
+  if (cards[0][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][1] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][1] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][1] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][1] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][1] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][1] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][1] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][1] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][1] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][1] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][1] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][1] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][2] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][2] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][2] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][2] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][2] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][2] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][2] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][2] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][2] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][2] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][2] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][2] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][3] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][3] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][3] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][3] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][3] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][3] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][3] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][3] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][3] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][3] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][3] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][3] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[1][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[1][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[1][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[1][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[1][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[1][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[1][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[1][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[1][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[1][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[1][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[1][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[1][1] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[1][1] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[1][1] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[1][1] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[1][1] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[1][1] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[1][1] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[1][1] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[1][1] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[1][1] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[1][1] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[1][1] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[1][2] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[1][2] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[1][2] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[1][2] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[1][2] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[1][2] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[1][2] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[1][2] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[1][2] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[1][2] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[1][2] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[1][2] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[1][3] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[1][3] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[1][3] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[1][3] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[1][3] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[1][3] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[1][3] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[1][3] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[1][3] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[1][3] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[1][3] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[1][3] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+  if (cards[0][0] === zero) {
+    document.getElementById('club1').id = "club1"
+  } else if (cards[0][0] === one) {
+    document.getElementById("club1").id = "diamond1"
+  } else if (cards[0][0] === two) {
+    document.getElementById("club1").id = "spade1"
+  } else if (cards[0][0] === three) {
+    document.getElementById("club1").id = "smiley1"
+  } else if (cards[0][0] === four) {
+    document.getElementById("club1").id = "triangle1"
+  } else if (cards[0][0] === five) {
+    document.getElementById("club1").id = "club2"
+  } else if (cards[0][0] === six) {
+    document.getElementById("club1").id = "triangle2"
+  } else if (cards[0][0] === seven) {
+    document.getElementById("club1").id = "heart1"
+  } else if (cards[0][0] === eight) {
+    document.getElementById("club1").id = "diamond2"
+  } else if (cards[0][0] === nine) {
+    document.getElementById("club1").id = "heart2"
+  } else if (cards[0][0] === ten) {
+    document.getElementById("club1").id = "spade2"
+  } else if (cards[0][0] === eleven) {
+    document.getElementById("club1").id = "smiley2"
+  }
+
+}
