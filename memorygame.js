@@ -111,7 +111,7 @@ function cellOne() {
   } else if (cards[0][0] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[0][0];   
-  } else if (cards[0][0] === four {
+  } else if (cards[0][0] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[0][0];   
   } else if (cards[0][0] === five) {
@@ -152,7 +152,7 @@ function cellTwo() {
   } else if (cards[0][1] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[0][1];   
-  } else if (cards[0][1] === four {
+  } else if (cards[0][1] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[0][1];   
   } else if (cards[0][1] === five) {
@@ -193,7 +193,7 @@ function cellThree() {
   } else if (cards[0][2] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[0][2];   
-  } else if (cards[0][2] === four {
+  } else if (cards[0][2] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[0][2];   
   } else if (cards[0][2] === five) {
@@ -234,7 +234,7 @@ function cellFour() {
   } else if (cards[0][3] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[0][3];   
-  } else if (cards[0][3] === four {
+  } else if (cards[0][3] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[0][3];   
   } else if (cards[0][3] === five) {
@@ -275,7 +275,7 @@ function cellFive() {
   } else if (cards[1][0] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[1][0];   
-  } else if (cards[1][0] === four {
+  } else if (cards[1][0] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[1][0];   
   } else if (cards[1][0] === five) {
@@ -316,7 +316,7 @@ function cellSix() {
   } else if (cards[1][1] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[1][1];   
-  } else if (cards[1][1] === four {
+  } else if (cards[1][1] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[1][1];   
   } else if (cards[1][1] === five) {
@@ -357,7 +357,7 @@ function cellSeven() {
   } else if (cards[1][2] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[1][2];   
-  } else if (cards[1][2] === four {
+  } else if (cards[1][2] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[1][2];   
   } else if (cards[1][2] === five) {
@@ -398,7 +398,7 @@ function cellEight() {
   } else if (cards[1][3] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[1][3];   
-  } else if (cards[1][3] === four {
+  } else if (cards[1][3] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[1][3];   
   } else if (cards[1][3] === five) {
@@ -439,7 +439,7 @@ function cellNine() {
   } else if (cards[2][0] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[2][0];   
-  } else if (cards[2][0] === four {
+  } else if (cards[2][0] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[2][0];   
   } else if (cards[2][0] === five) {
@@ -480,7 +480,7 @@ function cellTen() {
   } else if (cards[2][1] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[2][1];   
-  } else if (cards[2][1] === four {
+  } else if (cards[2][1] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[2][1];   
   } else if (cards[2][1] === five) {
@@ -521,7 +521,7 @@ function cellEleven() {
   } else if (cards[2][2] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[2][2];   
-  } else if (cards[2][2] === four {
+  } else if (cards[2][2] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[2][2];   
   } else if (cards[2][2] === five) {
@@ -562,7 +562,7 @@ function cellTwelve() {
   } else if (cards[2][3] === three) {
     smileys++
     document.getElementById("smiley1").src = cards[2][3];   
-  } else if (cards[2][3] === four {
+  } else if (cards[2][3] === four) {
     triangles++
     document.getElementById("triangle1").src = cards[2][3];   
   } else if (cards[2][3] === five) {
