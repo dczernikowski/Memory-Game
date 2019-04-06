@@ -99,220 +99,494 @@ function playAgain() {
 function cellOne() {
   numClick++
   //if statements that say if the given cell is a club or triangle or etc. it corresponds with the addition of the variable.
-  if (cards[0][0] === zero || cards[0][0] === five) {
+  if (cards[0][0] === zero) {
     clubs++
-  } else if (cards[0][0] === four || cards[0][0] === six) {
-    triangles++
-  } else if (cards[0][0] === two || cards[0][0] === ten) {
-    spades++
-  } else if (cards[0][0] === one || cards[0][0] === eight) {
+    document.getElementById("club1").src = cards[0][0];   
+  } else if (cards[0][0] === one) {
     diamonds++
-  } else if (cards[0][0] === seven || cards[0][0] === nine) {
-    hearts++
-  } else if (cards[0][0] === three || cards[0][0] === eleven) {
+    document.getElementById("diamond1").src = cards[0][0];   
+  } else if (cards[0][0] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[0][0];   
+  } else if (cards[0][0] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[0][0];   
+  } else if (cards[0][0] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[0][0];   
+  } else if (cards[0][0] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[0][0];   
+  } else if (cards[0][0] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[0][0];       
+  } else if (cards[0][0] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[0][0];
+  } else if (cards[0][0] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[0][0];        
+  } else if (cards[0][0] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[0][0];
+  } else if (cards[0][0] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[0][0];
+  } else if (cards[0][0] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[0][0];
   }
-
-  document.getElementById("club1").src = cards[0][0];
 }
 
 function cellTwo() {
   numClick++
-  if (cards[0][1] === zero || cards[0][1] === five) {
+  if (cards[0][1] === zero) {
     clubs++
-  } else if (cards[0][1] === four || cards[0][1] === six) {
-    triangles++
-  } else if (cards[0][1] === two || cards[0][1] === ten) {
-    spades++
-  } else if (cards[0][1] === one || cards[0][1] === eight) {
+    document.getElementById("club1").src = cards[0][1];   
+  } else if (cards[0][1] === one) {
     diamonds++
-  } else if (cards[0][1] === seven || cards[0][1] === nine) {
-    hearts++
-  } else if (cards[0][1] === three || cards[0][1] === eleven) {
+    document.getElementById("diamond1").src = cards[0][1];   
+  } else if (cards[0][1] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[0][1];   
+  } else if (cards[0][1] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[0][1];   
+  } else if (cards[0][1] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[0][1];   
+  } else if (cards[0][1] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[0][1];   
+  } else if (cards[0][1] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[0][1];       
+  } else if (cards[0][1] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[0][1];
+  } else if (cards[0][1] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[0][1];        
+  } else if (cards[0][1] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[0][1];
+  } else if (cards[0][1] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[0][1];
+  } else if (cards[0][1] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[0][1];
   }
-  document.getElementById("diamond1").src = cards[0][1];
 }
 
 function cellThree() {
   numClick++
-  if (cards[0][2] === zero || cards[0][2] === five) {
+  if (cards[0][2] === zero) {
     clubs++
-  } else if (cards[0][2] === four || cards[0][2] === six) {
-    triangles++
-  } else if (cards[0][2] === two || cards[0][2] === ten) {
-    spades++
-  } else if (cards[0][2] === one || cards[0][2] === eight) {
+    document.getElementById("club1").src = cards[0][2];   
+  } else if (cards[0][2] === one) {
     diamonds++
-  } else if (cards[0][2] === seven || cards[0][2] === nine) {
-    hearts++
-  } else if (cards[0][2] === three || cards[0][2] === eleven) {
+    document.getElementById("diamond1").src = cards[0][2];   
+  } else if (cards[0][2] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[0][2];   
+  } else if (cards[0][2] === three) {
     smileys++
-}
-  document.getElementById("spade1").src = cards[0][2];
+    document.getElementById("smiley1").src = cards[0][2];   
+  } else if (cards[0][2] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[0][2];   
+  } else if (cards[0][2] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[0][2];   
+  } else if (cards[0][2] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[0][2];       
+  } else if (cards[0][2] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[0][2];
+  } else if (cards[0][2] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[0][2];        
+  } else if (cards[0][2] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[0][2];
+  } else if (cards[0][2] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[0][2];
+  } else if (cards[0][2] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[0][2];
+  }
 }
 
 function cellFour() {
   numClick++
-  if (cards[0][3] === zero || cards[0][3] === five) {
+  if (cards[0][3] === zero) {
     clubs++
-  } else if (cards[0][3] === four || cards[0][3] === six) {
-    triangles++
-  } else if (cards[0][3] === two || cards[0][3] === ten) {
-    spades++
-  } else if (cards[0][3] === one || cards[0][3] === eight) {
+    document.getElementById("club1").src = cards[0][3];   
+  } else if (cards[0][3] === one) {
     diamonds++
-  } else if (cards[0][3] === seven || cards[0][3] === nine) {
-    hearts++
-  } else if (cards[0][3] === three || cards[0][3] === eleven) {
+    document.getElementById("diamond1").src = cards[0][3];   
+  } else if (cards[0][3] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[0][3];   
+  } else if (cards[0][3] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[0][3];   
+  } else if (cards[0][3] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[0][3];   
+  } else if (cards[0][3] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[0][3];   
+  } else if (cards[0][3] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[0][3];       
+  } else if (cards[0][3] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[0][3];
+  } else if (cards[0][3] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[0][3];        
+  } else if (cards[0][3] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[0][3];
+  } else if (cards[0][3] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[0][3];
+  } else if (cards[0][3] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[0][3];
   }
-  document.getElementById("smiley1").src = cards[0][3];
 }
 
 function cellFive() {
   numClick++
-  if (cards[1][0] === zero || cards[1][0] === five) {
+  if (cards[2][3] === zero) {
     clubs++
-  } else if (cards[1][0] === four || cards[1][0] === six) {
-    triangles++
-  } else if (cards[1][0] === two || cards[1][0] === ten) {
-    spades++
-  } else if (cards[1][0] === one || cards[1][0] === eight) {
+    document.getElementById("club1").src = cards[2][3];   
+  } else if (cards[2][3] === one) {
     diamonds++
-  } else if (cards[1][0] === seven || cards[1][0] === nine) {
-    hearts++
-  } else if (cards[1][0] === three || cards[1][0] === eleven) {
+    document.getElementById("diamond1").src = cards[2][3];   
+  } else if (cards[1][0] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[1][0];   
+  } else if (cards[1][0] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[1][0];   
+  } else if (cards[1][0] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[1][0];   
+  } else if (cards[1][0] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[1][0];   
+  } else if (cards[1][0] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[1][0];       
+  } else if (cards[1][0] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[1][0];
+  } else if (cards[1][0] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[1][0];        
+  } else if (cards[1][0] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[1][0];
+  } else if (cards[1][0] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[1][0];
+  } else if (cards[1][0] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[1][0];
   }
-
-  document.getElementById("triangle1").src = cards[1][0];
 }
 
 function cellSix() {
   numClick++
-  if (cards[1][1] === zero || cards[1][1] === five) {
+  if (cards[1][1] === zero) {
     clubs++
-  } else if (cards[1][1] === four || cards[1][1] === six) {
-    triangles++
-  } else if (cards[1][1] === two || cards[1][1] === ten) {
-    spades++
-  } else if (cards[1][1] === one || cards[1][1] === eight) {
+    document.getElementById("club1").src = cards[1][1];   
+  } else if (cards[1][1] === one) {
     diamonds++
-  } else if (cards[1][1] === seven || cards[1][1] === nine) {
-    hearts++
-  } else if (cards[1][1] === three || cards[1][1] === eleven) {
+    document.getElementById("diamond1").src = cards[1][1];   
+  } else if (cards[1][1] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[1][1];   
+  } else if (cards[1][1] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[1][1];   
+  } else if (cards[1][1] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[1][1];   
+  } else if (cards[1][1] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[1][1];   
+  } else if (cards[1][1] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[1][1];       
+  } else if (cards[1][1] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[1][1];
+  } else if (cards[1][1] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[1][1];        
+  } else if (cards[1][1] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[1][1];
+  } else if (cards[1][1] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[1][1];
+  } else if (cards[1][1] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[1][1];
   }
-  document.getElementById("club2").src = cards[1][1];
 }
 
 function cellSeven() {
   numClick++
-  if (cards[1][2] === zero || cards[1][2] === five) {
+  if (cards[2][3] === zero) {
     clubs++
-  } else if (cards[1][2] === four || cards[1][2] === six) {
-    triangles++
-  } else if (cards[1][2] === two || cards[1][2] === ten) {
-    spades++
-  } else if (cards[1][2] === one || cards[1][2] === eight) {
+    document.getElementById("club1").src = cards[1][2];   
+  } else if (cards[1][2] === one) {
     diamonds++
-  } else if (cards[1][2] === seven || cards[1][2] === nine) {
-    hearts++
-  } else if (cards[1][2] === three || cards[1][2] === eleven) {
+    document.getElementById("diamond1").src = cards[1][2];   
+  } else if (cards[1][2] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[1][2];   
+  } else if (cards[1][2] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[1][2];   
+  } else if (cards[1][2] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[1][2];   
+  } else if (cards[1][2] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[1][2];   
+  } else if (cards[1][2] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[1][2];       
+  } else if (cards[1][2] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[1][2];
+  } else if (cards[1][2] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[1][2];        
+  } else if (cards[1][2] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[1][2];
+  } else if (cards[1][2] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[1][2];
+  } else if (cards[1][2] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[1][2];
   }
-  document.getElementById("triangle2").src = cards[1][2];
 }
 
 function cellEight() {
   numClick++
-  if (cards[1][3] === zero || cards[1][3] === five) {
+  if (cards[1][3] === zero) {
     clubs++
-  } else if (cards[1][3] === four || cards[1][3] === six) {
-    triangles++
-  } else if (cards[1][3] === two || cards[1][3] === ten) {
-    spades++
-  } else if (cards[1][3] === one || cards[1][3] === eight) {
+    document.getElementById("club1").src = cards[1][3];   
+  } else if (cards[1][3] === one) {
     diamonds++
-  } else if (cards[1][3] === seven || cards[1][3] === nine) {
-    hearts++
-  } else if (cards[1][3] === three || cards[1][3] === eleven) {
+    document.getElementById("diamond1").src = cards[1][3];   
+  } else if (cards[1][3] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[1][3];   
+  } else if (cards[1][3] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[1][3];   
+  } else if (cards[1][3] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[1][3];   
+  } else if (cards[1][3] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[1][3];   
+  } else if (cards[1][3] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[1][3];       
+  } else if (cards[1][3] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[1][3];
+  } else if (cards[1][3] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[1][3];        
+  } else if (cards[1][3] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[1][3];
+  } else if (cards[1][3] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[1][3];
+  } else if (cards[1][3] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[1][3];
   }
-  document.getElementById("heart1").src = cards[1][3];
 }
 
 function cellNine() {
   numClick++
-  if (cards[2][0] === zero || cards[2][0] === five) {
+  if (cards[2][0] === zero) {
     clubs++
-  } else if (cards[2][0] === four || cards[2][0] === six) {
-    triangles++
-  } else if (cards[2][0] === two || cards[2][0] === ten) {
-    spades++
-  } else if (cards[2][0] === one || cards[2][0] === eight) {
+    document.getElementById("club1").src = cards[2][0];   
+  } else if (cards[2][0] === one) {
     diamonds++
-  } else if (cards[2][0] === seven || cards[2][0] === nine) {
-    hearts++
-  } else if (cards[2][0] === three || cards[2][0] === eleven) {
+    document.getElementById("diamond1").src = cards[2][0];   
+  } else if (cards[2][0] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[2][0];   
+  } else if (cards[2][0] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[2][0];   
+  } else if (cards[2][0] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[2][0];   
+  } else if (cards[2][0] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[2][0];   
+  } else if (cards[2][0] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[2][0];       
+  } else if (cards[2][0] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[2][0];
+  } else if (cards[2][0] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[2][0];        
+  } else if (cards[2][0] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[2][0];
+  } else if (cards[2][0] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[2][0];
+  } else if (cards[2][0] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[2][0];
   }
-  document.getElementById("diamond2").src = cards[2][0];
 }
 
 function cellTen() {
   numClick++
-  if (cards[2][1] === zero || cards[2][1] === five) {
+  if (cards[2][1] === zero) {
     clubs++
-  } else if (cards[2][1] === four || cards[2][1] === six) {
-    triangles++
-  } else if (cards[2][1] === two || cards[2][1] === ten) {
-    spades++
-  } else if (cards[2][1] === one || cards[2][1] === eight) {
+    document.getElementById("club1").src = cards[2][1];   
+  } else if (cards[2][1] === one) {
     diamonds++
-  } else if (cards[2][1] === seven || cards[2][1] === nine) {
-    hearts++
-  } else if (cards[2][1] === three || cards[2][1] === eleven) {
+    document.getElementById("diamond1").src = cards[2][1];   
+  } else if (cards[2][1] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[2][1];   
+  } else if (cards[2][1] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[2][1];   
+  } else if (cards[2][1] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[2][1];   
+  } else if (cards[2][1] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[2][1];   
+  } else if (cards[2][1] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[2][1];       
+  } else if (cards[2][1] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[2][1];
+  } else if (cards[2][1] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[2][1];        
+  } else if (cards[2][1] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[2][1];
+  } else if (cards[2][1] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[2][1];
+  } else if (cards[2][1] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[2][1];
   }
-  document.getElementById("heart2").src = cards[2][1];
 }
 
 function cellEleven() {
   numClick++
-  if (cards[2][2] === zero || cards[2][2] === five) {
+  if (cards[2][2] === zero) {
     clubs++
-  } else if (cards[2][2] === four || cards[2][2] === six) {
-    triangles++
-  } else if (cards[2][2] === two || cards[2][2] === ten) {
-    spades++
-  } else if (cards[2][2] === one || cards[2][2] === eight) {
+    document.getElementById("club1").src = cards[2][2];   
+  } else if (cards[2][2] === one) {
     diamonds++
-  } else if (cards[2][2] === seven || cards[2][2] === nine) {
-    hearts++
-  } else if (cards[2][2] === three || cards[2][2] === eleven) {
+    document.getElementById("diamond1").src = cards[2][2];   
+  } else if (cards[2][2] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[2][2];   
+  } else if (cards[2][2] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[2][2];   
+  } else if (cards[2][2] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[2][2];   
+  } else if (cards[2][2] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[2][2];   
+  } else if (cards[2][2] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[2][2];       
+  } else if (cards[2][2] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[2][2];
+  } else if (cards[2][2] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[2][2];        
+  } else if (cards[2][2] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[2][2];
+  } else if (cards[2][2] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[2][2];
+  } else if (cards[2][2] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[2][2];
   }
-  document.getElementById("spade2").src = cards[2][2];
 }
 
 function cellTwelve() {
   numClick++
-  if (cards[2][3] === zero || cards[2][3] === five) {
+  if (cards[2][3] === zero) {
     clubs++
-  } else if (cards[2][3] === four || cards[2][3] === six) {
-    triangles++
-  } else if (cards[2][3] === two || cards[2][3] === ten) {
-    spades++
-  } else if (cards[2][3] === one || cards[2][3] === eight) {
+    document.getElementById("club1").src = cards[2][3];   
+  } else if (cards[2][3] === one) {
     diamonds++
-  } else if (cards[2][3] === seven || cards[2][3] === nine) {
-    hearts++
-  } else if (cards[2][3] === three || cards[2][3] === eleven) {
+    document.getElementById("diamond1").src = cards[2][3];   
+  } else if (cards[2][3] === two) {
+    spades++
+    document.getElementById("spade1").src = cards[2][3];   
+  } else if (cards[2][3] === three) {
     smileys++
+    document.getElementById("smiley1").src = cards[2][3];   
+  } else if (cards[2][3] === four {
+    triangles++
+    document.getElementById("triangle1").src = cards[2][3];   
+  } else if (cards[2][3] === five) {
+    clubs++
+    document.getElementById("club2").src = cards[2][3];   
+  } else if (cards[2][3] === six) {
+    triangles++
+    document.getElementById("triangle2").src = cards[2][3];       
+  } else if (cards[2][3] === seven) {
+    hearts++
+    document.getElementById("heart1").src = cards[2][3];
+  } else if (cards[2][3] === eight) {
+    diamonds++
+    document.getElementById("diamond2").src = cards[2][3];        
+  } else if (cards[2][3] === nine) {
+    hearts++
+    document.getElementById("heart2").src = cards[2][3];
+  } else if (cards[2][3] === ten) {
+    spades++
+    document.getElementById("spade2").src = cards[2][3];
+  } else if (cards[2][3] === eleven) {
+    smileys++
+    document.getElementById("smiley2").src = cards[2][3];
   }
-  document.getElementById("smiley2").src = cards[2][3];
 }
 
 function twoCardsFlipped() {
