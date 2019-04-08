@@ -662,7 +662,7 @@ function win() {
 }
 
 //change the id of the cell so it corresponds with the picture.
-function idChanger() {
+/*function idChanger() {
   if (cards[0][0] === zero) {
     document.getElementById('club1').id = "club1"
   } else if (cards[0][0] === one) {
@@ -671,7 +671,7 @@ function idChanger() {
     document.getElementById("club1").id = "spade1"
   } else if (cards[0][0] === three) {
     document.getElementById("club1").id = "smiley1"
-  } else if (cards[0][0] === four) {
+} else if (cards[0][0] === four) {
     document.getElementById("club1").id = "triangle1"
   } else if (cards[0][0] === five) {
     document.getElementById("club1").id = "club2"
@@ -975,4 +975,4 @@ function idChanger() {
     document.getElementById('smiley2').id = "smiley2"
   }
 
-}
+}*/
